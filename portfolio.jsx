@@ -216,7 +216,7 @@ export default function Portfolio() {
               </FadeIn>
               <FadeIn delay={0.25}>
                 <p style={{ fontSize: "1.1rem", lineHeight: 1.7, color: "#9090a8", maxWidth: 540, marginBottom: 32 }}>
-                  IT engineering student with expertise in <span style={{ color: "#e8e8f0" }}>cloud computing</span>, <span style={{ color: "#e8e8f0" }}>software development</span>, and <span style={{ color: "#e8e8f0" }}>DevOps</span>. Building AI-driven solutions and automated deployments.
+                  IT engineering graduate with expertise in <span style={{ color: "#e8e8f0" }}>cloud computing</span>, <span style={{ color: "#e8e8f0" }}>software development</span>, and <span style={{ color: "#e8e8f0" }}>DevOps</span>. Building AI-driven solutions and automated deployments.
                 </p>
                 <div style={{ display: "flex", gap: 16, flexWrap: "wrap" }}>
                   <button className="cta-btn" onClick={() => scrollTo("Projects")} style={{ background: "#00e5c0", color: "#09090f" }}>View Projects</button>
