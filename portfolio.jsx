@@ -1,4 +1,5 @@
 import { useState, useEffect, useRef } from "react";
+import profilePhoto from './niranjan.jpeg'
 
 const NAV_LINKS = ["About", "Skills", "Projects", "Experience", "Contact"];
 
@@ -235,7 +236,7 @@ export default function Portfolio() {
             <FadeIn delay={0.3}>
               <div className="avatar-ring">
                 <img
-                  src="./niranjan.jpeg"
+                  src={profilePhoto}
                   alt="Niranjan Parichippully"
                   style={{
                     width: "100%",
