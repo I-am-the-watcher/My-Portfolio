@@ -235,7 +235,7 @@ export default function Portfolio() {
             <FadeIn delay={0.3}>
               <div className="avatar-ring">
                 <img
-                  src="/niranjan.jpeg"
+                  src="./niranjan.jpeg"
                   alt="Niranjan Parichippully"
                   style={{
                     width: "100%",
